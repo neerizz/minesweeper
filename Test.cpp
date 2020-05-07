@@ -12,6 +12,8 @@
 					n4  root  n5
 					n6   n7   n8
 6)It is a strategic game, so don't click around randomly. All the best :)
+
+Lastly! you need to enter moves in this format-->  row_number column_number s/f(whatever you choose)
 */
 
 #include<bits/stdc++.h>
