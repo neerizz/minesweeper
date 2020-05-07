@@ -1,3 +1,19 @@
+/* INSTRUCTIONS:
+1)There are a certain number of mines hidden in a grid. Your task is to uncover all the cells except the ones holding mines.
+2)You need to flag all the cells containing mines.
+3)You will never lose in the first move.
+4)If you select s, it will uncover that cell.
+5)If the cell contains a number>0, it will uncover only that cell and display the number.
+6)If the cell contains a number=0, it will recursively all others around it until there is a complete boundary of cells containing 
+  numbers>0 around it.
+5)The numbers in the cells represent the number of neighbours of that cell containg a mine.
+  There can be a maximum of 8 neighbors of a cell as shown below:
+					n1   n2   n3
+					n4  root  n5
+					n6   n7   n8
+6)It is a strategic game, so don't click around randomly. All the best :)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXSIZE = 30;
